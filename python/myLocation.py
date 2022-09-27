@@ -5,13 +5,18 @@ class Location:
         self.name = name
         self.country = country
     def myLocation(self):
-        print(self.name)
+        print("Hi, my name is "+self.name+" and I live in "+self.country+"." )
 
+#instansiasi
+your_loc = Location("Theo", "Netherlands")
+loc1 = Location ("Tomas", "Portugal")
+loc2 = Location ("Ying", "China")
+loc3 = Location ("Amare", "Kenya")
 
-locl = Location("Theo", "Netherlands")
-locl.myLocation()
+#eksekusi
+loc1.myLocation()
+loc2.myLocation()
+loc3.myLocation()
+your_loc.myLocation()
 
-def test_mylocation():
-    test_local = Location("test1", "test2loc")
-    assert test_local.myLocation() == "test1"
 

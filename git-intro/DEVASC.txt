@@ -1,2 +1,2 @@
-I am on my way to passing the Cisco DEVASC exam
+I am on my way to passing the DevNet DEVASC exam
 I am beginnin to understand Git!
